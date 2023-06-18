@@ -55,6 +55,13 @@ locations and minimize cost simultaneously <br />
 
 ## 3. Data Source:
 
+We started the project by pulling the data from three different sources: **Google Maps** (for the
+locations’ co-ordinations), **Tripadvisor** (for ”Stars” ratings of the tourist spots), and **Rome2Rio** (for the
+transportation time and cost among the locations). We made some transformations to the data and
+create a second data set to have information on transportation options and the amount cost for each
+type of transportation traveling from 1 place to the other. The translated data has the permutation of
+location pairs with traveling expenses corresponding with the means of transportation the model will
+select.
 
-
+![]()
 
