@@ -1,0 +1,67 @@
+Departure,Arrival,Walking,Bus,Taxi,Train,Airplane
+Hoan Kiem Lake,Long Bien Bridge,0,999,2,999,999
+Hoan Kiem Lake,Ha Long Bay,0,20,115,,263
+Hoan Kiem Lake,Hoi An Ancient Town,0,34,,35.5,65.5
+Hoan Kiem Lake,Notre Dame Square,0,55,,55,102.5
+Hoan Kiem Lake,Cu Chi Tunner,0,94,,80,127
+Hoan Kiem Lake,Thap Tram Huong,0,52,,41,53.5
+Hoan Kiem Lake,Dragon Bridge,0,27,,28.5,62
+Hoan Kiem Lake,Cai Rang Floating Market,0,66.5,,69,156.5
+Hoan Kiem Lake,Vung Tau Lighthouse,0,67.5,,68,116.5
+Hoan Kiem Lake,Fansipan Mountain,0,15,,14,
+Hoan Kiem Lake,Hue Imperial City,0,20,,26.5,83
+Long Bien Bridge,Ha Long Bay,0,22,115,,263
+Long Bien Bridge,Hoi An Ancient Town,0,34,,44.5,65.5
+Long Bien Bridge,Notre Dame Square,0,55,,62,102.5
+Long Bien Bridge,Cu Chi Tunner,0,94,,87.5,124
+Long Bien Bridge,Thap Tram Huong,0,52,,48,53.5
+Long Bien Bridge,Dragon Bridge,0,27,,37.5,62
+Long Bien Bridge,Cai Rang Floating Market,0,66.5,,76,156.5
+Long Bien Bridge,Vung Tau Lighthouse,0,64,,115.5,111.5
+Long Bien Bridge,Fansipan Mountain,0,15,,21,
+Long Bien Bridge,Hue Imperial City,0,20,,,83
+Ha Long Bay,Hoi An Ancient Town,0,59,,85,127
+Ha Long Bay,Notre Dame Square,0,92,,102.5,131
+Ha Long Bay,Cu Chi Tunner,0,111,,128,152.5
+Ha Long Bay,Thap Tram Huong,0,75.5,,88.5,155.5
+Ha Long Bay,Dragon Bridge,0,52,,78,123.5
+Ha Long Bay,Cai Rang Floating Market,0,99.5,,126.5,186
+Ha Long Bay,Vung Tau Lighthouse,0,83,,156,140
+Ha Long Bay,Fansipan Mountain,0,27.5,,61.5,
+Ha Long Bay,Hue Imperial City,0,52.5,,74,193.5
+Hoi An Ancient Town,Notre Dame Square,0,34.5,,51.5,124
+Hoi An Ancient Town,Cu Chi Tunner,0,59,,77,145.5
+Hoi An Ancient Town,Thap Tram Huong,0,17,,37.5,122.5
+Hoi An Ancient Town,Dragon Bridge,0,7,21,,
+Hoi An Ancient Town,Cai Rang Floating Market,0,46,,75.5,165.5
+Hoi An Ancient Town,Vung Tau Lighthouse,0,41,,105,133
+Hoi An Ancient Town,Fansipan Mountain,0,50.5,,51.5,
+Hoi An Ancient Town,Hue Imperial City,0,17,97.5,,
+Notre Dame Square,Cu Chi Tunner,0,,27,,
+Notre Dame Square,Thap Tram Huong,0,9,,21.5,125
+Notre Dame Square,Dragon Bridge,0,26.5,,38,120.5
+Notre Dame Square,Cai Rang Floating Market,0,10.5,125,,
+Notre Dame Square,Vung Tau Lighthouse,0,9,72.5,,
+Notre Dame Square,Fansipan Mountain,0,69.5,,,
+Notre Dame Square,Hue Imperial City,0,34.5,,37.5,212.5
+Cu Chi Tunner,Thap Tram Huong,0,35,,46,148
+Cu Chi Tunner,Dragon Bridge,0,53.5,,60,143.5
+Cu Chi Tunner,Cai Rang Floating Market,0,36.5,135,,
+Cu Chi Tunner,Vung Tau Lighthouse,0,32.5,97.5,,
+Cu Chi Tunner,Fansipan Mountain,0,95.5,,95,142
+Cu Chi Tunner,Hue Imperial City,0,60.5,,62.5,235.5
+Thap Tram Huong,Dragon Bridge,0,24,,22,119
+Thap Tram Huong,Cai Rang Floating Market,0,20.5,,,147
+Thap Tram Huong,Vung Tau Lighthouse,0,20.5,,73,134
+Thap Tram Huong,Fansipan Mountain,0,66.5,,58,70
+Thap Tram Huong,Hue Imperial City,0,34,,23.5,146.5
+Dragon Bridge,Cai Rang Floating Market,0,20,,35,147
+Dragon Bridge,Vung Tau Lighthouse,0,20.5,,73,134
+Dragon Bridge,Fansipan Mountain,0,66.5,,58,
+Dragon Bridge,Hue Imperial City,0,34,,23.5,146.5
+Cai Rang Floating Market,Vung Tau Lighthouse,0,16,,,
+Cai Rang Floating Market,Fansipan Mountain,0,81,,83.5,253
+Cai Rang Floating Market,Hue Imperial City,0,46,,60.5,314.5
+Vung Tau Lighthouse,Fansipan Mountain,0,82,,79.5,128
+Vung Tau Lighthouse,Hue Imperial City,0,28,,92,221.5
+Fansipan Mountain,Hue Imperial City,0,34,,40.5,
