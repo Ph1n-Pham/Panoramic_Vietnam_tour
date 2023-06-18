@@ -63,5 +63,5 @@ type of transportation traveling from 1 place to the other. The translated data 
 location pairs with traveling expenses corresponding with the means of transportation the model will
 select.
 
-![]()
-
+![Location Data](content/Raw_Data.png)
+Figure 1: Location Data
