@@ -53,7 +53,7 @@ Maximum ∑ star<sub>i</sub> <br />
 Where f (cost) is a function used to normalize variable cost so that we can maximize the number of
 locations and minimize cost simultaneously <br />
 
-## 3. Data Source:
+## 3. Data:
 
 We started the project by pulling the data from three different sources: **Google Maps** (for the
 locations’ co-ordinations), **Tripadvisor** (for ”Stars” ratings of the tourist spots), and **Rome2Rio** (for the
@@ -65,3 +65,36 @@ select.
 
 ![Location Data](content/Raw_Data.png)
 Figure 1: Location Data
+
+*Data Preparation* : In our dataset, we can see that not all 5 options are always available when
+we travel from one place to another. Therefore, one of the significant changes that we did (within the
+process of Data Cleaning with Python) was converting the NULL values in the cost of transportation
+into 999 (data type: integer). The main reason why we made this change is that our Gurobi model
+will not select this option when the Gurobi model is executed due to the force of cost constraints. This
+will mimic the behavior of NULL data while also helping the code work smoothly without running into
+syntax errors.
+
+With the process of building up the mathematical backbone for the optimization model, we begin
+by setting with the time, budget, and transportation data by this following mathematical representation:
+Let i be the departing location and j be the arrival destination, such that:
+
+• time<sub>ij</sub> : time to take from i-j using that transportation.<br />
+• cost<sub>ij</sub> : cost from i-j using that transportation.<br />
+• star<sub>i</sub>: The rating for each location.<br />
+
+## 4. Result:
+
+See the final report for result analysis!
+
+## 5. Reference:
+
+1. Fuentes, G. E. A., Gress, E. S. H., Mora, J. C. S. T., amp; Mar ́ın, J. M. (2018, August 22).
+Solution to travelling salesman problem by clusters and a modified multi-restart iterated local
+search metaheuristic. PLOS ONE. Retrieved April 7, 2023, from
+https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0201868sec008<br />
+2. GeeksforGeeks. (2023, February 6). Traveling salesman problem using Dynamic Programming.
+GeeksforGeeks. Retrieved April 7, 2023, from https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/<br />
+3. Google. (2023, April 4). Distance Matrix API request and response. Google. Retrieved April 7,
+2023, from https://developers.google.com/maps/documentation/distance-matrix/distance-matrix<br />
+4. Ltd, R. P. (2010). Rome2rio. Retrieved April 7, 2023, from
+https://www.rome2rio.com/map/
