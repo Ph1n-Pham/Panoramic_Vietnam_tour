@@ -84,7 +84,7 @@ Let i be the departing location and j be the arrival destination, such that:
 
 ## 4. Result:
 
-See the final report for result analysis!
+See the [final report](https://github.com/Ph1n-Pham/Panoramic_Vietnam_tour/blob/main/Report.pdf) for detailed result analysis!
 
 ## 5. Reference:
 
