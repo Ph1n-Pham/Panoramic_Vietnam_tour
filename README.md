@@ -70,7 +70,10 @@ location pairs with traveling expenses corresponding with the means of transport
 select.
 
 ![Location Data](content/Raw_Data.png)
-Figure 1: Location Data
+<p align="center">
+  Figure 1: Location Data
+</p>
+
 
 *Data Preparation* : In our dataset, we can see that not all 5 options are always available when
 we travel from one place to another. Therefore, one of the significant changes that we did (within the
