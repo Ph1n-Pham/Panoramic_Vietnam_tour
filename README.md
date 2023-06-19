@@ -1,4 +1,7 @@
-# Panoramic_Vietnam_tour (updating..)
+# Panoramic tour of Vietnam: An optimization model for trip planning on budget
+
+[Phineas Pham](https://github.com/Ph1n-Pham) and Hung Tran<br />
+May 2023<br />
 
 ## 1. Introduction: 
 
@@ -8,12 +11,15 @@ opment. In this project, we simulate the decision-making process of a student co
 country as possible, within their limited time and budget constraints. The student is allowed to choose
 one means of transportation (walking, bus, taxi, train, airplane, etc.) for each pair of departure and
 arrival to optimize their traveling plan.
-The model is built on the foundation of the “Traveling Salesman” problem, with new aspects of
+
+The model is built on the foundation of the “Traveling Salesman” problem, with aspects of
 geographical distances, the means of transportation, and how the variables interact with one another
 using the Google Maps API package. The goal of the model is to suggest a list of tourist attractions and
 the best transportation. Throughout this project, our hope is also to popularize Vietnamese tourism to
 Denison students while making optimal travel plan for foreigners coming to Vietnam for the first time
 who don’t know where to start.
+
+In this project, we will use Gurobi Optimization tool ([gurobipy](https://pypi.org/project/gurobipy/)) and linear programming to solve the model with time and money constraints to maximize number of "stars" of attractions, which are explained below.
 
 ## 2. Description:
 
